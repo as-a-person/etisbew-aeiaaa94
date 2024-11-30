@@ -1,1 +1,1 @@
-This is the repository of [insert phrase]
+This is the repository of <a href="./docs">[insert phrase]</a>
