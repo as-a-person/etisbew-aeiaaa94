@@ -2,4 +2,4 @@ This is the repository of <a href="https://github.com/as-a-person/etisbew-aeiaaa
 
 And also you may expect alot of bugs.
 
-This repository is random <a href="https://as-a-person.github.com/etisbew-aeiaaa94/docs" target="_blank">(site)</a>
+This repository is random <a href="https://as-a-person.github.io/etisbew-aeiaaa94/docs" target="_blank">(site)</a>
