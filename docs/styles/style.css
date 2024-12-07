@@ -1,4 +1,7 @@
 body {
-    background-color: grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgrey;
+    font: Verdana;
+    color: lightgrey;
+    border: solid;
+    border-color: grey;
 }
