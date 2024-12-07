@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Art</title>
+        <style>
+            body {
+                background-color: black;
+            }
+            h1 {
+                position: absolute;
+                top: 49px;
+                left: 777px;
+                color: white;
+            }
+            canvas {
+                background-color: white;
+            }
+            p {
+                color: white;
+            }
+        </style>
+    </head>
+    <body id="main">
+        <h1 id="headie">canvas(lbl)</h1>
+        <script>
+            var canvas = document.createElement("canvas");
+            document.body.appendChild(canvas);
+            canvas.id = "art"
+            var ctx = canvas.getContext("2d");
+            ctx.moveTo(21, 21);
+            document.addEventListener('keydown', logKey);
+            function logKey(e) {
+                if(`${e.code}` === "Enter") {
+                    console.log(372);
+                    let color = prompt("Enter a color");
+                    ctx.strokeStyle = color;
+                }
+            }
+            canvas.addEventListener('click', logClick);
+            function logClick(e) {
+                console.log("Canvas clicked at x: " + e.screenX + ", y: " + e.screenY);
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.stroke();
+            }
+        </script>
+    </body>
+</html>
