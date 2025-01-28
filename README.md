@@ -5,3 +5,5 @@ And also you may expect alot of bugs.
 This repository is random <a href="https://as-a-person.github.io/etisbew-aeiaaa94/docs" target="_blank">(site)</a>
 
 Note by aeiaaa94: The docs directory is not really a documentation, it is just for holding most of the "website".
+
+i have a life
